@@ -1,4 +1,4 @@
-# Extensión de Navegador para Descarga de CSV de Grabaciones de Clases VTEC
+# Descarga de CSV de Grabaciones de Clases VTEC
 
 ## Descripción del Proyecto
 
@@ -34,4 +34,4 @@ El archivo CSV con las grabaciones de las clases será descargado y estará list
 
 ---
 
-¡Gracias por utilizar nuestra extensión! Esperamos que te ayude a gestionar y revisar tus grabaciones de clase de manera más eficiente. Si tienes alguna
+¡Gracias por utilizar mi extensión! Esperamos que te ayude a gestionar y revisar tus grabaciones de clase de manera más eficiente.
