@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Descargar CSV",
+    "version": "1.0",
+    "description": "Esta extensión descarga un archivo CSV de la API UTEC.",
+    "permissions": ["activeTab", "https://ajax.googleapis.com/"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_end",
+        "matches": ["*://conference.utec.edu.pe/consulta-alumno*"],
+        "js": ["content.js"],
+        "world": "MAIN"
+      }
+    ]
+  }
+  
